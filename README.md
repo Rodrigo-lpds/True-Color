@@ -30,11 +30,16 @@ Biblioteca parecida com a **PIL**, responsável por auxiliar no processamento de
 Biblioteca **GDAL** responsável por manipular dados GeoEspaciais
 > conda install -c conda-forge gdal
 
-## Após a instalação bem sucedida das bibliotecas e do ambiente o script trueColorRJ_Tutorial pode ser executado em pleno funcionamento
+## Após a instalação bem sucedida das bibliotecas e do ambiente o script trueColorRJ_Tutorial pode ser executado em pleno funcionamento. E a projeção abaixo deve ter sido feita!
+
+![TrueColorRJ-02-Apr-2020_13_40_20](https://user-images.githubusercontent.com/56642493/89689233-56442c80-d8da-11ea-8df2-7e4c7990ada0.png)
+
 
 ## Créditos
 Script criado por mim: Rodrigo Lucas Pinto da Silva. [Github](https://github.com/Rodrigo-lpds) e [Linkedin](https://www.linkedin.com/in/rodrigo-lucas-pinto-da-silva-3684a8179/)
 
-Usando como referencia o blog: [GEONETClass - Americas](https://geonetcast.wordpress.com) e seus tutoriais incriveis que podem ser [encontrados aqui](https://geonetcast.wordpress.com/gnc-a-product-manipulation-tutorials/).
+Usando como referencia o blog: [GEONETClass - Americas](https://geonetcast.wordpress.com) e seus tutoriais que podem ser [encontrados aqui](https://geonetcast.wordpress.com/gnc-a-product-manipulation-tutorials/) no estudo inicial de projeções via NetCDF.
 
-E mentoria teórica de **Meteorologia e Dados Via Satélite** por [Fabio Hochleitner](https://www.linkedin.com/in/fabioh/) 
+Os tutoriais de [Unidata Python Gallery](https://unidata.github.io/python-training/) para criação de diversos tipos de projecões **True Color** que podem ser [encontrados aqui](https://unidata.github.io/python-gallery/examples/mapping_GOES16_TrueColor.html)
+
+E mentoria teórica geral de **Meteorologia e Dados Via Satélite** por [Fabio Hochleitner](https://www.linkedin.com/in/fabioh/) 
