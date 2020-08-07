@@ -2,7 +2,7 @@
 
 ## Descrição
 O projeto foi criado com o objetivo de utilizar dados geoespaciais (de formato **NetCDF**) dados pelo satélite **GOES-16** para confecção de projeções em composição colorida. A partir dos **16** canais do satélite podemos extrair diferentes tipos de dados, sendo cada canal diferente entre si por estarem em frequencias diferentes.
-Neste projeto, usaremos **3** canais de forma simultânea, sendo o canal 1,2 e 3, para sua confecção.
+Neste projeto, usaremos **3** canais de forma simultânea, sendo o canal **1,2 e 3**, para sua confecção.
 
 ## Instalação
 Para a execução dos scripts que serão mencionados posteriormente, será necessária a instalação de certos programas.
