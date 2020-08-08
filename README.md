@@ -4,7 +4,7 @@
 O projeto foi criado com o objetivo de utilizar dados geoespaciais (de formato **NetCDF**) dados pelo satélite **GOES-16** para confecção de projeções em composição colorida. A partir dos **16** canais do satélite podemos extrair diferentes tipos de dados, sendo cada canal diferente entre si por estarem em frequencias diferentes.
 Neste projeto, usaremos **3** canais de forma simultânea, sendo o canal **1,2 e 3**, para sua confecção.
 
-## Instalação
+## Instalação e Ajustes
 Para a execução dos scripts que serão mencionados posteriormente, será necessária a instalação de certos programas.
 
 #### Anaconda
@@ -30,7 +30,10 @@ Biblioteca parecida com a **PIL**, responsável por auxiliar no processamento de
 Biblioteca **GDAL** responsável por manipular dados GeoEspaciais
 > conda install -c conda-forge gdal
 
-## Após a instalação bem sucedida das bibliotecas e do ambiente o script trueColorRJ_Tutorial pode ser executado em pleno funcionamento. E a projeção abaixo deve ter sido feita!
+Finalmente, baixe os arquivos netCDF neste [diretório](https://drive.google.com/drive/folders/1IESFYnriP_4ceJuxIxH1GHN9cV4g_CvO?usp=sharing) e os coloque na pasta **samples.**
+
+
+## Feito isso,após a instalação bem sucedida das bibliotecas e do ambiente o script trueColorRJ_Tutorial pode ser executado em pleno funcionamento. E a projeção abaixo deve ter sido feita!
 
 ![TrueColorRJ-02-Apr-2020_13_40_20](https://user-images.githubusercontent.com/56642493/89689233-56442c80-d8da-11ea-8df2-7e4c7990ada0.png)
 
