@@ -34,9 +34,10 @@ min_lat = float(geo_extent.geospatial_southbound_latitude)
 max_lat = float(geo_extent.geospatial_northbound_latitude)
 
 # Choose the visualization extent (min lon, min lat, max lon, max lat)
-# Rio de Janeiro as a Center of the projection
-extent = [-50, -30.0, -35.0, -15.0]
-
+# Bocaina as a Center of the projection
+degrees = 5
+# Choose the visualization extent (min lon, min lat, max lon, max lat)
+extent = [-45 - degrees ,-23.7 - degrees,-43.4 + degrees,-22.5 + degrees]
 # Choose the image resolution (the higher the number the faster the processing is)
 resolution = 2 
 
